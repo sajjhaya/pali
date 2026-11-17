@@ -19,7 +19,7 @@ Versions are numbered edition.revision: corrections raise the revision (1.1,
 what changed in each version.
 
 VERSION
-  1.2, 17 November 2026. Built from commit b43efcc of the working
+  1.2, 17 November 2026. Built from commit 8b4306f of the working
   repository. Grammar: 522 pages. Workbook: 469 pages.
   Both 6 × 9 in. To check for a newer version, look at this repository.
 

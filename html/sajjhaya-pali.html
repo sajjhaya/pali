@@ -72,6 +72,9 @@ hr{border:0;border-top:1px solid var(--rule)}
 .pn{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:1rem;border-top:1px solid var(--rule);font-size:.95rem}
 .pn a{text-decoration:none}
 .pn span:last-child{text-align:right}
+.pn span{flex:1}
+.pn .toc-link{text-align:center}
+.homelinks{display:flex;justify-content:space-between;gap:1rem;margin:0 0 .6rem;font-size:.9rem}
 .home .layout{display:block}
 .home main{margin:0 auto;max-width:62rem;padding:2rem 1.5rem 5rem}
 .home h1{margin-top:2rem}
@@ -81,11 +84,14 @@ hr{border:0;border-top:1px solid var(--rule)}
 .home ol,.home ul{padding-left:1.2rem}
 @media print{nav.side,.pn{display:none}.layout{display:block}body{background:#fff;color:#000}}
 main section.page{margin-bottom:2rem}
+#home .cols{display:grid;gap:1.5rem}
+@media (min-width:60rem){#home .cols{grid-template-columns:1fr 1fr}}
+#home ol{padding-left:1.2rem}
 </style>
 </head>
 <body>
 <div class="layout">
-<nav class="side" aria-label="Contents"><a class="site" href="#">Pāli: A Reference Grammar and Workbook</a><div class="search"><input id="q" type="search" placeholder="Search both books" aria-label="Search both books"></div><ul id="hits"></ul><div class="tree">
+<nav class="side" aria-label="Contents"><p class="homelinks"><a href="#">← Contents</a> <a href="https://sajjhaya.github.io/">All books</a></p><a class="site" href="#">Pāli: A Reference Grammar and Workbook</a><div class="search"><input id="q" type="search" placeholder="Search both books" aria-label="Search both books"></div><ul id="hits"></ul><div class="tree">
 <details class="vol" open><summary>Pāli: A Reference Grammar</summary>
 <details class="grp"><summary>Front matter</summary><ol>
 <li><a href="#frontmatter-00-title">Pāli: A Reference Grammar</a></li>
@@ -180,8 +186,7 @@ main section.page{margin-bottom:2rem}
 <div id="home">
 <h1>Pāli: A Reference Grammar and Workbook</h1>
 <noscript><p>This file shows its sections with JavaScript, which is switched off.</p></noscript>
-<p>Choose a section from the contents, or search.</p>
-<p><a href="#frontmatter-00-title">Start reading: Pāli: A Reference Grammar</a></p>
+<div class="cols"><section id="reference"><h2>Pāli: A Reference Grammar</h2><h3>Front matter</h3><ol><li><a href="#frontmatter-00-title">Pāli: A Reference Grammar</a></li><li><a href="#frontmatter-01-introduction">Introduction: The Language of the Canon</a></li><li><a href="#frontmatter-02-how-to-study">How to Use This Book</a></li></ol><h3>Chapters</h3><ol><li><a href="#chapters-01-script-and-pronunciation">Script and Pronunciation</a></li><li><a href="#chapters-02-sandhi">Sandhi</a></li><li><a href="#chapters-03-nouns">Nouns: Stems and Declension</a></li><li><a href="#chapters-04-gender-and-adjectives">Gender and Adjectives</a></li><li><a href="#chapters-05-pronouns">Pronouns</a></li><li><a href="#chapters-06-numerals">Numerals</a></li><li><a href="#chapters-07-present-system">Verbs: The Present System</a></li><li><a href="#chapters-08-tenses-and-moods">Verbs: The Past and the Future</a></li><li><a href="#chapters-09-derived-conjugations">Passive, Causative and Denominative</a></li><li><a href="#chapters-10-participles">Participles</a></li><li><a href="#chapters-11-absolutives-and-infinitives">Absolutives and Infinitives</a></li><li><a href="#chapters-12-indeclinables">Indeclinables and Particles</a></li><li><a href="#chapters-13-compounds">Compounds</a></li><li><a href="#chapters-14-word-formation">Word Formation: Prefixes and Suffixes</a></li><li><a href="#chapters-15-case-syntax">Case Syntax</a></li><li><a href="#chapters-16-clause-syntax">Clause and Sentence Syntax</a></li><li><a href="#chapters-17-relative-clauses">Relative Clauses</a></li><li><a href="#chapters-18-metre">Metre</a></li></ol><h3>Appendices</h3><ol><li><a href="#appendices-A-paradigm-tables">Appendix A: Paradigm Tables</a></li><li><a href="#appendices-B-reading-pathway">Appendix B: A Graded Reading Pathway</a></li><li><a href="#appendices-C-language-of-the-canon">Appendix C: The Language of the Canon</a></li><li><a href="#appendices-D-bibliography">Appendix D: Bibliography and Sources Consulted</a></li><li><a href="#appendices-E-index-of-passages">Appendix E: Index of Passages Cited</a></li></ol></section><section id="workbook"><h2>Pāli: A Workbook</h2><h3>Front matter</h3><ol><li><a href="#workbook-00-how-to-use">Pāli: A Workbook</a></li></ol><h3>Exercises</h3><ol><li><a href="#workbook-01-script-and-pronunciation">Exercises: Script and Pronunciation</a></li><li><a href="#workbook-02-sandhi">Exercises: Sandhi</a></li><li><a href="#workbook-03-nouns">Exercises: Nouns</a></li><li><a href="#workbook-04-gender-and-adjectives">Exercises: Gender and Adjectives</a></li><li><a href="#workbook-05-pronouns">Exercises: Pronouns</a></li><li><a href="#workbook-06-numerals">Exercises: Numerals</a></li><li><a href="#workbook-07-present-system">Exercises: The Present System</a></li><li><a href="#workbook-08-tenses-and-moods">Exercises: The Past and the Future</a></li><li><a href="#workbook-09-derived-conjugations">Exercises: Passive, Causative and Denominative</a></li><li><a href="#workbook-10-participles">Exercises: Participles</a></li><li><a href="#workbook-11-absolutives-and-infinitives">Exercises: Absolutives and Infinitives</a></li><li><a href="#workbook-12-indeclinables">Exercises: Indeclinables and Particles</a></li><li><a href="#workbook-13-compounds">Exercises: Compounds</a></li><li><a href="#workbook-14-word-formation">Exercises: Word Formation</a></li><li><a href="#workbook-15-case-syntax">Exercises: Case Syntax</a></li><li><a href="#workbook-16-clause-syntax">Exercises: Clause and Sentence Syntax</a></li><li><a href="#workbook-17-relative-clauses">Exercises: Relative Clauses</a></li><li><a href="#workbook-18-metre">Exercises: Metre</a></li></ol><h3>Reviews</h3><ol><li><a href="#workbook-R1-sounds-and-script">Review: Sounds and Script</a></li><li><a href="#workbook-R2-noun-phrase">Review: The Noun Phrase</a></li><li><a href="#workbook-R3-the-verb">Review: The Verb</a></li><li><a href="#workbook-R4-sentence-and-verse">Review: The Sentence and the Verse</a></li></ol><h3>Answers</h3><ol><li><a href="#answers-01-script-and-pronunciation">Answers: Script and Pronunciation</a></li><li><a href="#answers-02-sandhi">Answers: Sandhi</a></li><li><a href="#answers-03-nouns">Answers: Nouns</a></li><li><a href="#answers-04-gender-and-adjectives">Answers: Gender and Adjectives</a></li><li><a href="#answers-05-pronouns">Answers: Pronouns</a></li><li><a href="#answers-06-numerals">Answers: Numerals</a></li><li><a href="#answers-07-present-system">Answers: The Present System</a></li><li><a href="#answers-08-tenses-and-moods">Answers: The Past and the Future</a></li><li><a href="#answers-09-derived-conjugations">Answers: Passive, Causative and Denominative</a></li><li><a href="#answers-10-participles">Answers: Participles</a></li><li><a href="#answers-11-absolutives-and-infinitives">Answers: Absolutives and Infinitives</a></li><li><a href="#answers-12-indeclinables">Answers: Indeclinables and Particles</a></li><li><a href="#answers-13-compounds">Answers: Compounds</a></li><li><a href="#answers-14-word-formation">Answers: Word Formation</a></li><li><a href="#answers-15-case-syntax">Answers: Case Syntax</a></li><li><a href="#answers-16-clause-syntax">Answers: Clause and Sentence Syntax</a></li><li><a href="#answers-17-relative-clauses">Answers: Relative Clauses</a></li><li><a href="#answers-18-metre">Answers: Metre</a></li><li><a href="#answers-R1-sounds-and-script">Answers: Review — Sounds and Script</a></li><li><a href="#answers-R2-noun-phrase">Answers: Review — The Noun Phrase</a></li><li><a href="#answers-R3-the-verb">Answers: Review — The Verb</a></li><li><a href="#answers-R4-sentence-and-verse">Answers: Review — The Sentence and the Verse</a></li></ol></section></div>
 </div>
 <section class="page" id="view" hidden></section>
 <p class="ver">Version 1.2 · 17 November 2026. <a href="https://github.com/sajjhaya/pali">Check the repository for a newer version.</a></p>
@@ -49749,7 +49754,9 @@ it in, and the dictionary what is there.</p></li>
   pn.className='pn';
   if(i>0)l.appendChild(link(pages[i-1],true));
   if(i<pages.length-1)r.appendChild(link(pages[i+1],false));
-  pn.appendChild(l);pn.appendChild(r);view.appendChild(pn);
+  var m=document.createElement('span'),c=document.createElement('a');
+  m.className='toc-link';c.href='#';c.textContent='Contents';m.appendChild(c);
+  pn.appendChild(l);pn.appendChild(m);pn.appendChild(r);view.appendChild(pn);
   home.hidden=true;view.hidden=false;
   [].forEach.call(document.querySelectorAll('nav.side [aria-current]'),function(a){a.removeAttribute('aria-current');});
   var a=document.querySelector('nav.side .tree a[href="#'+t.id+'"]');
