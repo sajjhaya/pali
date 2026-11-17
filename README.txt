@@ -19,22 +19,22 @@ Versions are numbered edition.revision: corrections raise the revision (1.1,
 what changed in each version.
 
 VERSION
-  1.2, 17 November 2026. Built from commit 88fcdb6 of the working
+  1.2, 17 November 2026. Built from commit c95bfc1 of the working
   repository. Grammar: 522 pages. Workbook: 469 pages.
   Both 6 × 9 in. To check for a newer version, look at this repository.
 
 WHAT IS HERE
   pdf/         The two books as print PDFs: sajjhaya-pali.pdf (the grammar)
                and sajjhaya-pali-workbook.pdf (the workbook).
-  markdown/    The same two volumes, each as one markdown file, and each
-               one file at a time: grammar/ (front matter, the eighteen
-               chapters in order, and Appendices A to E) and workbook/
-               (exercises/ and answers/, paired by chapter).
+  markdown/    sajjhaya-pali-markdown.zip: both books as markdown, each
+               whole and each one file per section in reading order, with
+               a README of its own.
   html/        Both books in one HTML file, sajjhaya-pali.html, that works
                offline: contents on the left and a search box. Open it in
                any browser.
   site/        The books as a website, one page per chapter, with the same
                contents and search. Open site/index.html in a browser.
+  index.html   Sends a browser on to site/.
   CHANGES.txt  What changed in each version.
   LICENSE      The terms.
 

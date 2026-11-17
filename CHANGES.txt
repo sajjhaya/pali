@@ -5,10 +5,13 @@ Versions are numbered edition.revision. Newest first.
 1.2 — 17 November 2026
   The books are retitled and have moved to github.com/sajjhaya/pali. The
   grammar is now "Pāli: A Reference Grammar" and the workbook "Pāli: A
-  Workbook"; the files are sajjhaya-pali and sajjhaya-pali-workbook. The licence notice is rewritten
-  in a shorter form, with the full legal code included, and the title page
-  follows it. The terms are unchanged: CC BY-NC-SA 4.0. No rule, form,
-  example or analysis has changed.
+  Workbook"; the files are sajjhaya-pali and sajjhaya-pali-workbook. Both
+  books also come as one offline HTML file, with contents and search, and
+  the markdown as one zip holding each volume whole and one file per
+  section. The website gains the same contents and search. The licence
+  notice is rewritten in a shorter form, with the full legal code included,
+  and the title page follows it. The terms are unchanged: CC BY-NC-SA 4.0.
+  No rule, form, example or analysis has changed.
 
 1.1 — 24 October 2026
   A revision of the prose throughout both volumes. No rule, form, example or
