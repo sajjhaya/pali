@@ -1,0 +1,31 @@
+CHANGES
+
+Versions are numbered edition.revision. Newest first.
+
+1.2 — 17 November 2026
+  The books are retitled and have moved to github.com/sajjhaya/pali. The
+  grammar is now "Pāli: A Reference Grammar" and the workbook "Pāli: A
+  Workbook"; the files are sajjhaya-pali and sajjhaya-pali-workbook. The licence notice is rewritten
+  in a shorter form, with the full legal code included, and the title page
+  follows it. The terms are unchanged: CC BY-NC-SA 4.0. No rule, form,
+  example or analysis has changed.
+
+1.1 — 24 October 2026
+  A revision of the prose throughout both volumes. No rule, form, example or
+  analysis has changed; the wording has.
+  Habitual phrasings that read as formula rather than argument ("rather
+  than", "which is why", "is doing the work", paired dashes, bold
+  sentences) have been rewritten into plainer prose. Bold is now kept for
+  terms and for the forms a worked example highlights. Prose em-dashes are
+  fewer, and the grammar is about 3,500 words shorter, the workbook about
+  4,000.
+  Appendix B, the reading pathway, is expanded to seventy-two texts, with its
+  figures (page, length, vocabulary coverage) measured from the corpus.
+  Appendix D no longer carries production notes.
+
+1.0 — 5 October 2026
+  The first numbered version, and a pre-proof edition: the author's
+  proof-read of the printed pages is still to come.
+  The grammar and the workbook as two print PDFs, as markdown (one file per
+  volume and one per chapter), and as a website with no JavaScript.
+  Every printed copy now carries this version on its title page.
