@@ -80,12 +80,12 @@ hr{border:0;border-top:1px solid var(--rule)}
 @media (min-width:60rem){.home .cols{grid-template-columns:1fr 1fr}}
 .home ol,.home ul{padding-left:1.2rem}
 @media print{nav.side,.pn{display:none}.layout{display:block}body{background:#fff;color:#000}}
-main section.page{margin-bottom:4rem}
+main section.page{margin-bottom:2rem}
 </style>
 </head>
 <body>
 <div class="layout">
-<nav class="side" aria-label="Contents"><a class="site" href="#top">Pāli: A Reference Grammar and Workbook</a><div class="search"><input id="q" type="search" placeholder="Search both books" aria-label="Search both books"></div><ul id="hits"></ul><div class="tree">
+<nav class="side" aria-label="Contents"><a class="site" href="#">Pāli: A Reference Grammar and Workbook</a><div class="search"><input id="q" type="search" placeholder="Search both books" aria-label="Search both books"></div><ul id="hits"></ul><div class="tree">
 <details class="vol" open><summary>Pāli: A Reference Grammar</summary>
 <details class="grp"><summary>Front matter</summary><ol>
 <li><a href="#frontmatter-00-title">Pāli: A Reference Grammar</a></li>
@@ -177,8 +177,17 @@ main section.page{margin-bottom:4rem}
 </details>
 </div></nav>
 <main>
-<h1 id="top">Pāli: A Reference Grammar and Workbook</h1>
-<section class="page" id="frontmatter-00-title" data-title="Pāli: A Reference Grammar · Pāli: A Reference Grammar"><p class="kicker">Front matter</p><section id="p0-pāli-a-reference-grammar" class="level1">
+<div id="home">
+<h1>Pāli: A Reference Grammar and Workbook</h1>
+<noscript><p>This file shows its sections with JavaScript, which is switched off.</p></noscript>
+<p>Choose a section from the contents, or search.</p>
+<p><a href="#frontmatter-00-title">Start reading: Pāli: A Reference Grammar</a></p>
+</div>
+<section class="page" id="view" hidden></section>
+<p class="ver">Version 1.2 · 17 November 2026. <a href="https://github.com/sajjhaya/pali">Check the repository for a newer version.</a></p>
+</main>
+</div>
+<template data-page id="frontmatter-00-title" data-title="Pāli: A Reference Grammar · Pāli: A Reference Grammar" data-label="Pāli: A Reference Grammar"><p class="kicker">Front matter</p><section id="p0-pāli-a-reference-grammar" class="level1">
 <h1>Pāli: A Reference Grammar</h1>
 <p>Version 1.2 · 17 November 2026</p>
 <section id="p0-copyright-and-licence" class="level2">
@@ -232,8 +241,8 @@ copyright, and are not licensed here.</li>
 </ul>
 </section>
 </section>
-</section>
-<section class="page" id="frontmatter-01-introduction" data-title="Introduction: The Language of the Canon · Pāli: A Reference Grammar"><p class="kicker">Front matter</p><section id="p1-introduction-the-language-of-the-canon" class="level1">
+</template>
+<template data-page id="frontmatter-01-introduction" data-title="Introduction: The Language of the Canon · Pāli: A Reference Grammar" data-label="Introduction: The Language of the Canon"><p class="kicker">Front matter</p><section id="p1-introduction-the-language-of-the-canon" class="level1">
 <h1>Introduction: The Language of the Canon</h1>
 <p>Pāli is the language in which the Theravāda canon has come down to
 us. That much is agreed. Almost everything else that is commonly said
@@ -451,8 +460,8 @@ approx. the ninth century CE).”<a href="#p1-fnref3"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="frontmatter-02-how-to-study" data-title="How to Use This Book · Pāli: A Reference Grammar"><p class="kicker">Front matter</p><section id="p2-how-to-use-this-book" class="level1">
+</template>
+<template data-page id="frontmatter-02-how-to-study" data-title="How to Use This Book · Pāli: A Reference Grammar" data-label="How to Use This Book"><p class="kicker">Front matter</p><section id="p2-how-to-use-this-book" class="level1">
 <h1>How to Use This Book</h1>
 <p>This is a reference grammar of the Pāli of the Theravāda canon, and
 it is also a course. Two kinds of reader are expected, and they want
@@ -941,8 +950,8 @@ four fall short of.<a href="#p2-fnref7" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-01-script-and-pronunciation" data-title="1. Script and Pronunciation · Pāli: A Reference Grammar"><p class="kicker">Chapter 1</p><section id="p3-script-and-pronunciation" class="level1">
+</template>
+<template data-page id="chapters-01-script-and-pronunciation" data-title="1. Script and Pronunciation · Pāli: A Reference Grammar" data-label="1. Script and Pronunciation"><p class="kicker">Chapter 1</p><section id="p3-script-and-pronunciation" class="level1">
 <h1>Script and Pronunciation</h1>
 <p>Pāli is a language that was spoken for centuries before anyone wrote
 it down, and it has no script of its own. That fact governs everything
@@ -1920,8 +1929,8 @@ footnote.<a href="#p3-fnref19" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-02-sandhi" data-title="2. Sandhi · Pāli: A Reference Grammar"><p class="kicker">Chapter 2</p><section id="p4-sandhi" class="level1">
+</template>
+<template data-page id="chapters-02-sandhi" data-title="2. Sandhi · Pāli: A Reference Grammar" data-label="2. Sandhi"><p class="kicker">Chapter 2</p><section id="p4-sandhi" class="level1">
 <h1>Sandhi</h1>
 <p><em>Sandhi</em> is what happens where two sounds meet. The word means
 ‘junction’, and the phenomenon is not peculiar to Pāli: English does it
@@ -2642,8 +2651,8 @@ href="#p4-fnref19" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-03-nouns" data-title="3. Nouns: Stems and Declension · Pāli: A Reference Grammar"><p class="kicker">Chapter 3</p><section id="p5-nouns-stems-and-declension" class="level1">
+</template>
+<template data-page id="chapters-03-nouns" data-title="3. Nouns: Stems and Declension · Pāli: A Reference Grammar" data-label="3. Nouns: Stems and Declension"><p class="kicker">Chapter 3</p><section id="p5-nouns-stems-and-declension" class="level1">
 <h1>Nouns: Stems and Declension</h1>
 <p>A Pāli noun is a <strong>stem</strong> plus an
 <strong>ending</strong>. The stem carries the meaning and does not
@@ -3905,8 +3914,8 @@ href="#p5-fnref24" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-04-gender-and-adjectives" data-title="4. Gender and Adjectives · Pāli: A Reference Grammar"><p class="kicker">Chapter 4</p><section id="p6-gender-and-adjectives" class="level1">
+</template>
+<template data-page id="chapters-04-gender-and-adjectives" data-title="4. Gender and Adjectives · Pāli: A Reference Grammar" data-label="4. Gender and Adjectives"><p class="kicker">Chapter 4</p><section id="p6-gender-and-adjectives" class="level1">
 <h1>Gender and Adjectives</h1>
 <p>The previous chapter set out the endings. This one is about the two
 things that decide which endings a word takes: its
@@ -4611,8 +4620,8 @@ href="#p6-fnref14" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-05-pronouns" data-title="5. Pronouns · Pāli: A Reference Grammar"><p class="kicker">Chapter 5</p><section id="p7-pronouns" class="level1">
+</template>
+<template data-page id="chapters-05-pronouns" data-title="5. Pronouns · Pāli: A Reference Grammar" data-label="5. Pronouns"><p class="kicker">Chapter 5</p><section id="p7-pronouns" class="level1">
 <h1>Pronouns</h1>
 <section id="p7-what-a-pronoun-is" class="level2">
 <h2>What a pronoun is</h2>
@@ -7044,8 +7053,8 @@ on the page.<a href="#p7-fnref39" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-06-numerals" data-title="6. Numerals · Pāli: A Reference Grammar"><p class="kicker">Chapter 6</p><section id="p8-numerals" class="level1">
+</template>
+<template data-page id="chapters-06-numerals" data-title="6. Numerals · Pāli: A Reference Grammar" data-label="6. Numerals"><p class="kicker">Chapter 6</p><section id="p8-numerals" class="level1">
 <h1>Numerals</h1>
 <p>Numerals are among the most used words in any language, and heavily
 used words resist change. So the Pāli numerals keep more of their Old
@@ -8507,8 +8516,8 @@ to a cardinal the whole compound denotes <em>half of</em> the numeral:
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-07-present-system" data-title="7. Verbs: The Present System · Pāli: A Reference Grammar"><p class="kicker">Chapter 7</p><section id="p9-verbs-the-present-system" class="level1">
+</template>
+<template data-page id="chapters-07-present-system" data-title="7. Verbs: The Present System · Pāli: A Reference Grammar" data-label="7. Verbs: The Present System"><p class="kicker">Chapter 7</p><section id="p9-verbs-the-present-system" class="level1">
 <h1>Verbs: The Present System</h1>
 <p>A <strong>finite verb</strong> is one that inflects for person: it
 has separate forms for ‘I’, ‘you’, ‘he’. Everything else in the verbal
@@ -9606,8 +9615,8 @@ eight are one bare, six as <em>khomha</em> and one as
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-08-tenses-and-moods" data-title="8. Verbs: The Past and the Future · Pāli: A Reference Grammar"><p class="kicker">Chapter 8</p><section id="p10-verbs-the-past-and-the-future" class="level1">
+</template>
+<template data-page id="chapters-08-tenses-and-moods" data-title="8. Verbs: The Past and the Future · Pāli: A Reference Grammar" data-label="8. Verbs: The Past and the Future"><p class="kicker">Chapter 8</p><section id="p10-verbs-the-past-and-the-future" class="level1">
 <h1>Verbs: The Past and the Future</h1>
 <p>The three forms built on the present stem (the indicative, the
 imperative and the optative) are Chapter <a
@@ -10958,8 +10967,8 @@ occurrences.<a href="#p10-fnref18" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-09-derived-conjugations" data-title="9. Passive, Causative and Denominative · Pāli: A Reference Grammar"><p class="kicker">Chapter 9</p><section id="p11-passive-causative-and-denominative" class="level1">
+</template>
+<template data-page id="chapters-09-derived-conjugations" data-title="9. Passive, Causative and Denominative · Pāli: A Reference Grammar" data-label="9. Passive, Causative and Denominative"><p class="kicker">Chapter 9</p><section id="p11-passive-causative-and-denominative" class="level1">
 <h1>Passive, Causative and Denominative</h1>
 <p>Everything in Chapters <a
 href="#chapters-07-present-system">7</a> and <a
@@ -12239,8 +12248,8 @@ was made from them survives.<a href="#p11-fnref24" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-10-participles" data-title="10. Participles · Pāli: A Reference Grammar"><p class="kicker">Chapter 10</p><section id="p12-participles" class="level1">
+</template>
+<template data-page id="chapters-10-participles" data-title="10. Participles · Pāli: A Reference Grammar" data-label="10. Participles"><p class="kicker">Chapter 10</p><section id="p12-participles" class="level1">
 <h1>Participles</h1>
 <p>A participle has aspects of both a verb and an adjective: it
 “participates in” each. Like a verb it carries tense; like an adjective
@@ -13618,8 +13627,8 @@ auxiliary supplying ‘had’.<a href="#p12-fnref16" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-11-absolutives-and-infinitives" data-title="11. Absolutives and Infinitives · Pāli: A Reference Grammar"><p class="kicker">Chapter 11</p><section id="p13-absolutives-and-infinitives" class="level1">
+</template>
+<template data-page id="chapters-11-absolutives-and-infinitives" data-title="11. Absolutives and Infinitives · Pāli: A Reference Grammar" data-label="11. Absolutives and Infinitives"><p class="kicker">Chapter 11</p><section id="p13-absolutives-and-infinitives" class="level1">
 <h1>Absolutives and Infinitives</h1>
 <p>A brahmin farmer, meeting the Buddha at the edge of his field, tells
 him to go and earn his food as everyone else does:</p>
@@ -14459,8 +14468,8 @@ has no finite verb.<a href="#p13-fnref14" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-12-indeclinables" data-title="12. Indeclinables and Particles · Pāli: A Reference Grammar"><p class="kicker">Chapter 12</p><section id="p14-indeclinables-and-particles" class="level1">
+</template>
+<template data-page id="chapters-12-indeclinables" data-title="12. Indeclinables and Particles · Pāli: A Reference Grammar" data-label="12. Indeclinables and Particles"><p class="kicker">Chapter 12</p><section id="p14-indeclinables-and-particles" class="level1">
 <h1>Indeclinables and Particles</h1>
 <p>Every chapter so far has been about endings. A noun takes a case, a
 verb takes a person, an adjective agrees, and even the participle, which
@@ -16403,8 +16412,8 @@ is set beside another to characterise it.<a href="#p14-fnref29"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-13-compounds" data-title="13. Compounds · Pāli: A Reference Grammar"><p class="kicker">Chapter 13</p><section id="p15-compounds" class="level1">
+</template>
+<template data-page id="chapters-13-compounds" data-title="13. Compounds · Pāli: A Reference Grammar" data-label="13. Compounds"><p class="kicker">Chapter 13</p><section id="p15-compounds" class="level1">
 <h1>Compounds</h1>
 <p>After the last twelve chapters a reader can decline a noun, conjugate
 a verb and resolve a sandhi, and will still be stopped on the first page
@@ -18045,8 +18054,8 @@ compounds”, is the material excluded here.<a href="#p15-fnref38"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-14-word-formation" data-title="14. Word Formation: Prefixes and Suffixes · Pāli: A Reference Grammar"><p class="kicker">Chapter 14</p><section id="p16-word-formation-prefixes-and-suffixes" class="level1">
+</template>
+<template data-page id="chapters-14-word-formation" data-title="14. Word Formation: Prefixes and Suffixes · Pāli: A Reference Grammar" data-label="14. Word Formation: Prefixes and Suffixes"><p class="kicker">Chapter 14</p><section id="p16-word-formation-prefixes-and-suffixes" class="level1">
 <h1>Word Formation: Prefixes and Suffixes</h1>
 <p>The last chapter was about words joined together. This one is about
 words built up: the pieces that go on the front and the back of a stem,
@@ -19356,8 +19365,8 @@ role="doc-backlink">↩︎</a></p></li>
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-15-case-syntax" data-title="15. Case Syntax · Pāli: A Reference Grammar"><p class="kicker">Chapter 15</p><section id="p17-case-syntax" class="level1">
+</template>
+<template data-page id="chapters-15-case-syntax" data-title="15. Case Syntax · Pāli: A Reference Grammar" data-label="15. Case Syntax"><p class="kicker">Chapter 15</p><section id="p17-case-syntax" class="level1">
 <h1>Case Syntax</h1>
 <p>The declension chapters taught what the endings are. This one is
 about what they do, and an ending does less than a beginner hopes and
@@ -20898,8 +20907,8 @@ the commentarial text.<a href="#p17-fnref29" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-16-clause-syntax" data-title="16. Clause and Sentence Syntax · Pāli: A Reference Grammar"><p class="kicker">Chapter 16</p><section id="p18-clause-and-sentence-syntax" class="level1">
+</template>
+<template data-page id="chapters-16-clause-syntax" data-title="16. Clause and Sentence Syntax · Pāli: A Reference Grammar" data-label="16. Clause and Sentence Syntax"><p class="kicker">Chapter 16</p><section id="p18-clause-and-sentence-syntax" class="level1">
 <h1>Clause and Sentence Syntax</h1>
 <section id="p18-one-finite-verb-four-sentences" class="level2">
 <h2>One finite verb, four sentences</h2>
@@ -22401,8 +22410,8 @@ given here in its place.<a href="#p18-fnref37" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-17-relative-clauses" data-title="17. Relative Clauses · Pāli: A Reference Grammar"><p class="kicker">Chapter 17</p><section id="p19-relative-clauses" class="level1">
+</template>
+<template data-page id="chapters-17-relative-clauses" data-title="17. Relative Clauses · Pāli: A Reference Grammar" data-label="17. Relative Clauses"><p class="kicker">Chapter 17</p><section id="p19-relative-clauses" class="level1">
 <h1>Relative Clauses</h1>
 <section id="p19-two-clauses-and-one-term-between-them" class="level2">
 <h2>Two clauses, and one term between them</h2>
@@ -23887,8 +23896,8 @@ observation.<a href="#p19-fnref27" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="chapters-18-metre" data-title="18. Metre · Pāli: A Reference Grammar"><p class="kicker">Chapter 18</p><section id="p20-metre" class="level1">
+</template>
+<template data-page id="chapters-18-metre" data-title="18. Metre · Pāli: A Reference Grammar" data-label="18. Metre"><p class="kicker">Chapter 18</p><section id="p20-metre" class="level1">
 <h1>Metre</h1>
 <section id="p20-what-a-verse-is-made-of" class="level2">
 <h2>What a verse is made of</h2>
@@ -25204,8 +25213,8 @@ R. Norman’s reconstructions in “The metres of the Lakkhaṇasuttanta”,
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="appendices-A-paradigm-tables" data-title="Appendix A: Paradigm Tables · Pāli: A Reference Grammar"><p class="kicker">Appendices</p><section id="p21-appendix-a-paradigm-tables" class="level1">
+</template>
+<template data-page id="appendices-A-paradigm-tables" data-title="Appendix A: Paradigm Tables · Pāli: A Reference Grammar" data-label="Appendix A: Paradigm Tables"><p class="kicker">Appendices</p><section id="p21-appendix-a-paradigm-tables" class="level1">
 <h1>Appendix A: Paradigm Tables</h1>
 <p>The complete declensions and conjugations, gathered here for
 reference. Chapters carry only the working subset a reader needs at that
@@ -28204,8 +28213,8 @@ href="#p21-fnref15" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="appendices-B-reading-pathway" data-title="Appendix B: A Graded Reading Pathway · Pāli: A Reference Grammar"><p class="kicker">Appendices</p><section id="p22-appendix-b-a-graded-reading-pathway" class="level1">
+</template>
+<template data-page id="appendices-B-reading-pathway" data-title="Appendix B: A Graded Reading Pathway · Pāli: A Reference Grammar" data-label="Appendix B: A Graded Reading Pathway"><p class="kicker">Appendices</p><section id="p22-appendix-b-a-graded-reading-pathway" class="level1">
 <h1>Appendix B: A Graded Reading Pathway</h1>
 <p>A reference grammar teaches the system, and only volume of reading
 builds a reader. This appendix is the exit ramp.</p>
@@ -29146,8 +29155,8 @@ figure is unlikely to be much larger.<a href="#p22-fnref1"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="appendices-C-language-of-the-canon" data-title="Appendix C: The Language of the Canon · Pāli: A Reference Grammar"><p class="kicker">Appendices</p><section id="p23-appendix-c-the-language-of-the-canon" class="level1">
+</template>
+<template data-page id="appendices-C-language-of-the-canon" data-title="Appendix C: The Language of the Canon · Pāli: A Reference Grammar" data-label="Appendix C: The Language of the Canon"><p class="kicker">Appendices</p><section id="p23-appendix-c-the-language-of-the-canon" class="level1">
 <h1>Appendix C: The Language of the Canon</h1>
 <p>The introduction states a conclusion: that Pāli is the closest
 surviving witness to the language the Buddha spoke, and is not that
@@ -29949,8 +29958,8 @@ reported and not verified here.<a href="#p23-fnref30"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="appendices-D-bibliography" data-title="Appendix D: Bibliography and Sources Consulted · Pāli: A Reference Grammar"><p class="kicker">Appendices</p><section id="p24-appendix-d-bibliography-and-sources-consulted"
+</template>
+<template data-page id="appendices-D-bibliography" data-title="Appendix D: Bibliography and Sources Consulted · Pāli: A Reference Grammar" data-label="Appendix D: Bibliography and Sources Consulted"><p class="kicker">Appendices</p><section id="p24-appendix-d-bibliography-and-sources-consulted"
 class="level1">
 <h1>Appendix D: Bibliography and Sources Consulted</h1>
 <p>Every grammar, dictionary, coursebook and text this book draws on, so
@@ -30300,8 +30309,8 @@ citation form), the Pāli convention governs.</li>
 </ul>
 </section>
 </section>
-</section>
-<section class="page" id="appendices-E-index-of-passages" data-title="Appendix E: Index of Passages Cited · Pāli: A Reference Grammar"><p class="kicker">Appendices</p><section id="p25-appendix-e-index-of-passages-cited" class="level1">
+</template>
+<template data-page id="appendices-E-index-of-passages" data-title="Appendix E: Index of Passages Cited · Pāli: A Reference Grammar" data-label="Appendix E: Index of Passages Cited"><p class="kicker">Appendices</p><section id="p25-appendix-e-index-of-passages-cited" class="level1">
 <h1>Appendix E: Index of Passages Cited</h1>
 <p>Every text this volume cites, in the order of the canon, with the
 page of the Pali Text Society’s edition on which it opens and the places
@@ -32132,8 +32141,8 @@ href="#appendices-B-reading-pathway">B</a></td>
 </table>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-00-how-to-use" data-title="Pāli: A Workbook · Pāli: A Workbook"><p class="kicker">Front matter</p><section id="p26-pāli-a-workbook" class="level1">
+</template>
+<template data-page id="workbook-00-how-to-use" data-title="Pāli: A Workbook · Pāli: A Workbook" data-label="Pāli: A Workbook"><p class="kicker">Front matter</p><section id="p26-pāli-a-workbook" class="level1">
 <h1>Pāli: A Workbook</h1>
 <p>Version 1.2 · 17 November 2026, for use with the same version of the
 grammar.</p>
@@ -32398,8 +32407,8 @@ Nikāyas and grades its pathway by it.<a href="#p26-fnref7"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="workbook-01-script-and-pronunciation" data-title="Exercises: Script and Pronunciation · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 1</p><section id="p27-exercises-script-and-pronunciation" class="level1">
+</template>
+<template data-page id="workbook-01-script-and-pronunciation" data-title="Exercises: Script and Pronunciation · Pāli: A Workbook" data-label="Exercises: Script and Pronunciation"><p class="kicker">Exercise · Chapter 1</p><section id="p27-exercises-script-and-pronunciation" class="level1">
 <h1>Exercises: Script and Pronunciation</h1>
 <p>Nothing in this chapter can be learned silently. Every item below is
 meant to be <strong>said aloud</strong> before it is written down, and
@@ -32578,8 +32587,8 @@ comes out with its long vowels intact, the chapter has done its
 work.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-02-sandhi" data-title="Exercises: Sandhi · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 2</p><section id="p28-exercises-sandhi" class="level1">
+</template>
+<template data-page id="workbook-02-sandhi" data-title="Exercises: Sandhi · Pāli: A Workbook" data-label="Exercises: Sandhi"><p class="kicker">Exercise · Chapter 2</p><section id="p28-exercises-sandhi" class="level1">
 <h1>Exercises: Sandhi</h1>
 <p>This chapter’s skill is taking a written form apart, so most of what
 follows runs backwards from the printed word to its pieces. That is the
@@ -32793,8 +32802,8 @@ is the same material produced instead of parsed.</p>
 canon.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-03-nouns" data-title="Exercises: Nouns · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 3</p><section id="p29-exercises-nouns" class="level1">
+</template>
+<template data-page id="workbook-03-nouns" data-title="Exercises: Nouns · Pāli: A Workbook" data-label="Exercises: Nouns"><p class="kicker">Exercise · Chapter 3</p><section id="p29-exercises-nouns" class="level1">
 <h1>Exercises: Nouns</h1>
 <p>The chapter’s argument was that the declensions are fewer than they
 look, because masculine and neuter differ only in three cases and
@@ -33036,8 +33045,8 @@ item 18.</p>
 paradigms have held.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-04-gender-and-adjectives" data-title="Exercises: Gender and Adjectives · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 4</p><section id="p30-exercises-gender-and-adjectives" class="level1">
+</template>
+<template data-page id="workbook-04-gender-and-adjectives" data-title="Exercises: Gender and Adjectives · Pāli: A Workbook" data-label="Exercises: Gender and Adjectives"><p class="kicker">Exercise · Chapter 4</p><section id="p30-exercises-gender-and-adjectives" class="level1">
 <h1>Exercises: Gender and Adjectives</h1>
 <p>An adjective has no endings of its own. Everything it does it
 borrows, and the whole skill this chapter asks for is reading that
@@ -33356,8 +33365,8 @@ the feminines intact, the table in 7–12 has become something you can
 use, not just recite.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-05-pronouns" data-title="Exercises: Pronouns · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 5</p><section id="p31-exercises-pronouns" class="level1">
+</template>
+<template data-page id="workbook-05-pronouns" data-title="Exercises: Pronouns · Pāli: A Workbook" data-label="Exercises: Pronouns"><p class="kicker">Exercise · Chapter 5</p><section id="p31-exercises-pronouns" class="level1">
 <h1>Exercises: Pronouns</h1>
 <p>The chapter’s one recurring claim is that a Pāli pronoun has to be
 identified, not merely recognised, and this set is built to make that
@@ -33613,8 +33622,8 @@ whole, with both <em>vo</em> in place, the enclitics have stopped being
 a list.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-06-numerals" data-title="Exercises: Numerals · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 6</p><section id="p32-exercises-numerals" class="level1">
+</template>
+<template data-page id="workbook-06-numerals" data-title="Exercises: Numerals · Pāli: A Workbook" data-label="Exercises: Numerals"><p class="kicker">Exercise · Chapter 6</p><section id="p32-exercises-numerals" class="level1">
 <h1>Exercises: Numerals</h1>
 <p>The pronoun chapter’s exercises began with isolated forms because its
 thesis was that a pronoun must be identified, not merely recognised.
@@ -33925,8 +33934,8 @@ still come out, the two constructions that do not agree with anything
 have stopped being exceptions.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-07-present-system" data-title="Exercises: The Present System · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 7</p><section id="p33-exercises-the-present-system" class="level1">
+</template>
+<template data-page id="workbook-07-present-system" data-title="Exercises: The Present System · Pāli: A Workbook" data-label="Exercises: The Present System"><p class="kicker">Exercise · Chapter 7</p><section id="p33-exercises-the-present-system" class="level1">
 <h1>Exercises: The Present System</h1>
 <p>The chapter’s thesis is that the reader works from the present stem,
 not the root, and that three of Pāli’s moods are built on it. So the
@@ -34248,8 +34257,8 @@ still come out, the optative and the imperative have separated for
 good.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-08-tenses-and-moods" data-title="Exercises: The Past and the Future · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 8</p><section id="p34-exercises-the-past-and-the-future" class="level1">
+</template>
+<template data-page id="workbook-08-tenses-and-moods" data-title="Exercises: The Past and the Future · Pāli: A Workbook" data-label="Exercises: The Past and the Future"><p class="kicker">Exercise · Chapter 8</p><section id="p34-exercises-the-past-and-the-future" class="level1">
 <h1>Exercises: The Past and the Future</h1>
 <p>The chapter’s four aorist types are one habit to acquire, not four
 rules to memorise: look for the augment, then ask what is left. So the
@@ -34622,8 +34631,8 @@ still come out as two different tenses of one verb, the future and the
 past have separated where they are hardest to keep apart.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-09-derived-conjugations" data-title="Exercises: Passive, Causative and Denominative · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 9</p><section id="p35-exercises-passive-causative-and-denominative"
+</template>
+<template data-page id="workbook-09-derived-conjugations" data-title="Exercises: Passive, Causative and Denominative · Pāli: A Workbook" data-label="Exercises: Passive, Causative and Denominative"><p class="kicker">Exercise · Chapter 9</p><section id="p35-exercises-passive-causative-and-denominative"
 class="level1">
 <h1>Exercises: Passive, Causative and Denominative</h1>
 <p>This set is longer than the ones before it, because five formations
@@ -34983,8 +34992,8 @@ href="#chapters-07-present-system">7</a>, and the
 denominative of this one.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-10-participles" data-title="Exercises: Participles · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 10</p><section id="p36-exercises-participles" class="level1">
+</template>
+<template data-page id="workbook-10-participles" data-title="Exercises: Participles · Pāli: A Workbook" data-label="Exercises: Participles"><p class="kicker">Exercise · Chapter 10</p><section id="p36-exercises-participles" class="level1">
 <h1>Exercises: Participles</h1>
 <p>The chapter’s one rule to carry into every sentence you meet from
 here on is that a past participle’s voice depends on the verb it is
@@ -35347,8 +35356,8 @@ not memorised.</p>
 defining a thing by exhausting it has become legible.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-11-absolutives-and-infinitives" data-title="Exercises: Absolutives and Infinitives · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 11</p><section id="p37-exercises-absolutives-and-infinitives" class="level1">
+</template>
+<template data-page id="workbook-11-absolutives-and-infinitives" data-title="Exercises: Absolutives and Infinitives · Pāli: A Workbook" data-label="Exercises: Absolutives and Infinitives"><p class="kicker">Exercise · Chapter 11</p><section id="p37-exercises-absolutives-and-infinitives" class="level1">
 <h1>Exercises: Absolutives and Infinitives</h1>
 <p>Both formations in this chapter are indeclinable, and that one fact
 generates most of the work below. An absolutive cannot agree with
@@ -35754,8 +35763,8 @@ item 31’s two constructions still sort themselves, the absolutive and
 the locative absolute have stopped being interchangeable.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-12-indeclinables" data-title="Exercises: Indeclinables and Particles · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 12</p><section id="p38-exercises-indeclinables-and-particles" class="level1">
+</template>
+<template data-page id="workbook-12-indeclinables" data-title="Exercises: Indeclinables and Particles · Pāli: A Workbook" data-label="Exercises: Indeclinables and Particles"><p class="kicker">Exercise · Chapter 12</p><section id="p38-exercises-indeclinables-and-particles" class="level1">
 <h1>Exercises: Indeclinables and Particles</h1>
 <p>Every other exercise set in this book can drill a form by asking you
 to build it. This one cannot, because an indeclinable has nothing to
@@ -36105,8 +36114,8 @@ out in four words, the difference between a word that inflects and a
 word that does not has stopped being theoretical.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-13-compounds" data-title="Exercises: Compounds · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 13</p><section id="p39-exercises-compounds" class="level1">
+</template>
+<template data-page id="workbook-13-compounds" data-title="Exercises: Compounds · Pāli: A Workbook" data-label="Exercises: Compounds"><p class="kicker">Exercise · Chapter 13</p><section id="p39-exercises-compounds" class="level1">
 <h1>Exercises: Compounds</h1>
 <p>In compounding, alone of the topics in this book, the drill and the
 reading are the same activity. Every long word in a sutta is an exercise
@@ -36471,8 +36480,8 @@ shows you the whole <em>bahubbīhi</em> rule in one changed ending, the
 class has been understood as a use, not memorised as a list.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-14-word-formation" data-title="Exercises: Word Formation · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 14</p><section id="p40-exercises-word-formation" class="level1">
+</template>
+<template data-page id="workbook-14-word-formation" data-title="Exercises: Word Formation · Pāli: A Workbook" data-label="Exercises: Word Formation"><p class="kicker">Exercise · Chapter 14</p><section id="p40-exercises-word-formation" class="level1">
 <h1>Exercises: Word Formation</h1>
 <p>This chapter’s claim is narrow and testable: knowing how a word was
 built shows you where to look it up, and very little else. So the set
@@ -36908,8 +36917,8 @@ front vuddhi has stopped being a rule and become a reflex, which is all
 this chapter wanted.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-15-case-syntax" data-title="Exercises: Case Syntax · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 15</p><section id="p41-exercises-case-syntax" class="level1">
+</template>
+<template data-page id="workbook-15-case-syntax" data-title="Exercises: Case Syntax · Pāli: A Workbook" data-label="Exercises: Case Syntax"><p class="kicker">Exercise · Chapter 15</p><section id="p41-exercises-case-syntax" class="level1">
 <h1>Exercises: Case Syntax</h1>
 <p>This chapter’s claim is that an ending narrows the possibilities and
 something else decides among them. So the set makes you decide instead
@@ -37367,8 +37376,8 @@ chapter’s claim has been understood, not merely agreed with: the ending
 narrows and the sentence decides.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-16-clause-syntax" data-title="Exercises: Clause and Sentence Syntax · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 16</p><section id="p42-exercises-clause-and-sentence-syntax" class="level1">
+</template>
+<template data-page id="workbook-16-clause-syntax" data-title="Exercises: Clause and Sentence Syntax · Pāli: A Workbook" data-label="Exercises: Clause and Sentence Syntax"><p class="kicker">Exercise · Chapter 16</p><section id="p42-exercises-clause-and-sentence-syntax" class="level1">
 <h1>Exercises: Clause and Sentence Syntax</h1>
 <p>This chapter’s claim is that Pāli subordinates by case and by
 participle, not by conjunction, and that the reader has to supply the
@@ -37741,8 +37750,8 @@ participle without your going back to the rule, the chapter’s central
 claim has stopped being a rule and become the way you read.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-17-relative-clauses" data-title="Exercises: Relative Clauses · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 17</p><section id="p43-exercises-relative-clauses" class="level1">
+</template>
+<template data-page id="workbook-17-relative-clauses" data-title="Exercises: Relative Clauses · Pāli: A Workbook" data-label="Exercises: Relative Clauses"><p class="kicker">Exercise · Chapter 17</p><section id="p43-exercises-relative-clauses" class="level1">
 <h1>Exercises: Relative Clauses</h1>
 <p>This chapter’s claim is that Pāli subordinates by pairing, not by
 embedding, and that the relative clause therefore arrives before there
@@ -38144,8 +38153,8 @@ in the memory, and the reading passage is only those shapes repeated
 with the gender changed.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-18-metre" data-title="Exercises: Metre · Pāli: A Workbook"><p class="kicker">Exercise · Chapter 18</p><section id="p44-exercises-metre" class="level1">
+</template>
+<template data-page id="workbook-18-metre" data-title="Exercises: Metre · Pāli: A Workbook" data-label="Exercises: Metre"><p class="kicker">Exercise · Chapter 18</p><section id="p44-exercises-metre" class="level1">
 <h1>Exercises: Metre</h1>
 <p>Scansion is the only part of Pāli grammar that can be done wholly by
 rule, and the fastest way to learn it is to do a great deal of it. So
@@ -38416,8 +38425,8 @@ whether you can now use the instrument on a question it does not settle
 as well as on one it does.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-R1-sounds-and-script" data-title="Review: Sounds and Script · Pāli: A Workbook"><p class="kicker">Reviews</p><section id="p45-review-sounds-and-script" class="level1">
+</template>
+<template data-page id="workbook-R1-sounds-and-script" data-title="Review: Sounds and Script · Pāli: A Workbook" data-label="Review: Sounds and Script"><p class="kicker">Reviews</p><section id="p45-review-sounds-and-script" class="level1">
 <h1>Review: Sounds and Script</h1>
 <p>A review is more than a recap. The exercises after each chapter test
 that chapter. This set tests what only becomes visible once several
@@ -38662,8 +38671,8 @@ right, and you can build the five quotatives, not merely recognise them,
 then Part I has done its work and the noun chapters can start.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-R2-noun-phrase" data-title="Review: The Noun Phrase · Pāli: A Workbook"><p class="kicker">Reviews</p><section id="p46-review-the-noun-phrase" class="level1">
+</template>
+<template data-page id="workbook-R2-noun-phrase" data-title="Review: The Noun Phrase · Pāli: A Workbook" data-label="Review: The Noun Phrase"><p class="kicker">Reviews</p><section id="p46-review-the-noun-phrase" class="level1">
 <h1>Review: The Noun Phrase</h1>
 <p>A review is not a recap. The exercises after each chapter test that
 chapter, and they are the right instrument for that. This tests what
@@ -38954,8 +38963,8 @@ reading, the review has done its work: some questions close and some do
 not, and knowing which is which is most of the skill.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-R3-the-verb" data-title="Review: The Verb · Pāli: A Workbook"><p class="kicker">Reviews</p><section id="p47-review-the-verb" class="level1">
+</template>
+<template data-page id="workbook-R3-the-verb" data-title="Review: The Verb · Pāli: A Workbook" data-label="Review: The Verb"><p class="kicker">Reviews</p><section id="p47-review-the-verb" class="level1">
 <h1>Review: The Verb</h1>
 <p>A review is more than a recap. The exercises after each chapter test
 that chapter, and they are the right instrument for that. This set tests
@@ -39396,8 +39405,8 @@ close on, because by then you have spent a month on finite verbs and the
 canon keeps writing sentences without them.</p>
 </section>
 </section>
-</section>
-<section class="page" id="workbook-R4-sentence-and-verse" data-title="Review: The Sentence and the Verse · Pāli: A Workbook"><p class="kicker">Reviews</p><section id="p48-review-the-sentence-and-the-verse" class="level1">
+</template>
+<template data-page id="workbook-R4-sentence-and-verse" data-title="Review: The Sentence and the Verse · Pāli: A Workbook" data-label="Review: The Sentence and the Verse"><p class="kicker">Reviews</p><section id="p48-review-the-sentence-and-the-verse" class="level1">
 <h1>Review: The Sentence and the Verse</h1>
 <p>A review is more than a recap. The exercises after each chapter test
 that chapter, and they are the right instrument for that. This set tests
@@ -39873,8 +39882,8 @@ reaches back to, then the book has been read as one argument, not as
 nineteen.</p>
 </section>
 </section>
-</section>
-<section class="page" id="answers-01-script-and-pronunciation" data-title="Answers: Script and Pronunciation · Pāli: A Workbook"><p class="kicker">Answers · Chapter 1</p><section id="p49-answers-script-and-pronunciation" class="level1">
+</template>
+<template data-page id="answers-01-script-and-pronunciation" data-title="Answers: Script and Pronunciation · Pāli: A Workbook" data-label="Answers: Script and Pronunciation"><p class="kicker">Answers · Chapter 1</p><section id="p49-answers-script-and-pronunciation" class="level1">
 <h1>Answers: Script and Pronunciation</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -40172,8 +40181,8 @@ careful listening will supply it. Knowing which of the two kinds of
 question you are facing is most of what this chapter is for.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-02-sandhi" data-title="Answers: Sandhi · Pāli: A Workbook"><p class="kicker">Answers · Chapter 2</p><section id="p50-answers-sandhi" class="level1">
+</template>
+<template data-page id="answers-02-sandhi" data-title="Answers: Sandhi · Pāli: A Workbook" data-label="Answers: Sandhi"><p class="kicker">Answers · Chapter 2</p><section id="p50-answers-sandhi" class="level1">
 <h1>Answers: Sandhi</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -40448,8 +40457,8 @@ whether it explains the form, not by whether its pieces can be found in
 an index.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-03-nouns" data-title="Answers: Nouns · Pāli: A Workbook"><p class="kicker">Answers · Chapter 3</p><section id="p51-answers-nouns" class="level1">
+</template>
+<template data-page id="answers-03-nouns" data-title="Answers: Nouns · Pāli: A Workbook" data-label="Answers: Nouns"><p class="kicker">Answers · Chapter 3</p><section id="p51-answers-nouns" class="level1">
 <h1>Answers: Nouns</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -40788,8 +40797,8 @@ result, not a failure: a phrase of one word can be produced long before
 a phrase with agreement in it. Come back to (d) on day 30.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-04-gender-and-adjectives" data-title="Answers: Gender and Adjectives · Pāli: A Workbook"><p class="kicker">Answers · Chapter 4</p><section id="p52-answers-gender-and-adjectives" class="level1">
+</template>
+<template data-page id="answers-04-gender-and-adjectives" data-title="Answers: Gender and Adjectives · Pāli: A Workbook" data-label="Answers: Gender and Adjectives"><p class="kicker">Answers · Chapter 4</p><section id="p52-answers-gender-and-adjectives" class="level1">
 <h1>Answers: Gender and Adjectives</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -41231,8 +41240,8 @@ at once, and noticing the difference means reading the table correctly,
 not doubting it.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-05-pronouns" data-title="Answers: Pronouns · Pāli: A Workbook"><p class="kicker">Answers · Chapter 5</p><section id="p53-answers-pronouns" class="level1">
+</template>
+<template data-page id="answers-05-pronouns" data-title="Answers: Pronouns · Pāli: A Workbook" data-label="Answers: Pronouns"><p class="kicker">Answers · Chapter 5</p><section id="p53-answers-pronouns" class="level1">
 <h1>Answers: Pronouns</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -41632,8 +41641,8 @@ came out with <em>te</em> at the head, the positional rule is not yet
 yours, and the error is more than a slip of memory.</li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-06-numerals" data-title="Answers: Numerals · Pāli: A Workbook"><p class="kicker">Answers · Chapter 6</p><section id="p54-answers-numerals" class="level1">
+</template>
+<template data-page id="answers-06-numerals" data-title="Answers: Numerals · Pāli: A Workbook" data-label="Answers: Numerals"><p class="kicker">Answers · Chapter 6</p><section id="p54-answers-numerals" class="level1">
 <h1>Answers: Numerals</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -42059,8 +42068,8 @@ heard. If (c) and (d) were the hard ones, the chapter has been
 understood and not yet absorbed, and day 30 settles the difference.</li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-07-present-system" data-title="Answers: The Present System · Pāli: A Workbook"><p class="kicker">Answers · Chapter 7</p><section id="p55-answers-the-present-system" class="level1">
+</template>
+<template data-page id="answers-07-present-system" data-title="Answers: The Present System · Pāli: A Workbook" data-label="Answers: The Present System"><p class="kicker">Answers · Chapter 7</p><section id="p55-answers-the-present-system" class="level1">
 <h1>Answers: The Present System</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -42500,8 +42509,8 @@ exercise is to produce the right form for the person you mean, not to
 tell their senses apart, which often nobody can.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-08-tenses-and-moods" data-title="Answers: The Past and the Future · Pāli: A Workbook"><p class="kicker">Answers · Chapter 8</p><section id="p56-answers-the-past-and-the-future" class="level1">
+</template>
+<template data-page id="answers-08-tenses-and-moods" data-title="Answers: The Past and the Future · Pāli: A Workbook" data-label="Answers: The Past and the Future"><p class="kicker">Answers · Chapter 8</p><section id="p56-answers-the-past-and-the-future" class="level1">
 <h1>Answers: The Past and the Future</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -42987,8 +42996,8 @@ between a plan and an offence.</p></li>
 </ol></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-09-derived-conjugations" data-title="Answers: Passive, Causative and Denominative · Pāli: A Workbook"><p class="kicker">Answers · Chapter 9</p><section id="p57-answers-passive-causative-and-denominative"
+</template>
+<template data-page id="answers-09-derived-conjugations" data-title="Answers: Passive, Causative and Denominative · Pāli: A Workbook" data-label="Answers: Passive, Causative and Denominative"><p class="kicker">Answers · Chapter 9</p><section id="p57-answers-passive-causative-and-denominative"
 class="level1">
 <h1>Answers: Passive, Causative and Denominative</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
@@ -43430,8 +43439,8 @@ to this: there is no <em>-e-</em> or <em>-āpe-</em> between the stem and
 the ending.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-10-participles" data-title="Answers: Participles · Pāli: A Workbook"><p class="kicker">Answers · Chapter 10</p><section id="p58-answers-participles" class="level1">
+</template>
+<template data-page id="answers-10-participles" data-title="Answers: Participles · Pāli: A Workbook" data-label="Answers: Participles"><p class="kicker">Answers · Chapter 10</p><section id="p58-answers-participles" class="level1">
 <h1>Answers: Participles</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -43833,8 +43842,8 @@ the <em>sajjhāya</em> stages themselves: a line that has been said often
 enough has more in it than the thing you came for.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-11-absolutives-and-infinitives" data-title="Answers: Absolutives and Infinitives · Pāli: A Workbook"><p class="kicker">Answers · Chapter 11</p><section id="p59-answers-absolutives-and-infinitives" class="level1">
+</template>
+<template data-page id="answers-11-absolutives-and-infinitives" data-title="Answers: Absolutives and Infinitives · Pāli: A Workbook" data-label="Answers: Absolutives and Infinitives"><p class="kicker">Answers · Chapter 11</p><section id="p59-answers-absolutives-and-infinitives" class="level1">
 <h1>Answers: Absolutives and Infinitives</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -44219,8 +44228,8 @@ cloth. He shifted his own and took a better robe, so the case is filed
 under theft and not under greed.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-12-indeclinables" data-title="Answers: Indeclinables and Particles · Pāli: A Workbook"><p class="kicker">Answers · Chapter 12</p><section id="p60-answers-indeclinables-and-particles" class="level1">
+</template>
+<template data-page id="answers-12-indeclinables" data-title="Answers: Indeclinables and Particles · Pāli: A Workbook" data-label="Answers: Indeclinables and Particles"><p class="kicker">Answers · Chapter 12</p><section id="p60-answers-indeclinables-and-particles" class="level1">
 <h1>Answers: Indeclinables and Particles</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -44598,8 +44607,8 @@ fair measure of how much of a Pāli sentence depends on the words that do
 not inflect.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-13-compounds" data-title="Answers: Compounds · Pāli: A Workbook"><p class="kicker">Answers · Chapter 13</p><section id="p61-answers-compounds" class="level1">
+</template>
+<template data-page id="answers-13-compounds" data-title="Answers: Compounds · Pāli: A Workbook" data-label="Answers: Compounds"><p class="kicker">Answers · Chapter 13</p><section id="p61-answers-compounds" class="level1">
 <h1>Answers: Compounds</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -45087,8 +45096,8 @@ highest goal’, where <em>uttama</em> + <em>attha</em> is itself a
 which is a fair sample of the Dhammapada.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-14-word-formation" data-title="Answers: Word Formation · Pāli: A Workbook"><p class="kicker">Answers · Chapter 14</p><section id="p62-answers-word-formation" class="level1">
+</template>
+<template data-page id="answers-14-word-formation" data-title="Answers: Word Formation · Pāli: A Workbook" data-label="Answers: Word Formation"><p class="kicker">Answers · Chapter 14</p><section id="p62-answers-word-formation" class="level1">
 <h1>Answers: Word Formation</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -45569,8 +45578,8 @@ the Vinaya draws on the supply harder than the suttas do because a
 procedure has to name each stage of itself.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-15-case-syntax" data-title="Answers: Case Syntax · Pāli: A Workbook"><p class="kicker">Answers · Chapter 15</p><section id="p63-answers-case-syntax" class="level1">
+</template>
+<template data-page id="answers-15-case-syntax" data-title="Answers: Case Syntax · Pāli: A Workbook" data-label="Answers: Case Syntax"><p class="kicker">Answers · Chapter 15</p><section id="p63-answers-case-syntax" class="level1">
 <h1>Answers: Case Syntax</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -46011,8 +46020,8 @@ and one verb settle the two ambiguous words, though the words themselves
 say nothing. That is how a case is decided in practice.</li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-16-clause-syntax" data-title="Answers: Clause and Sentence Syntax · Pāli: A Workbook"><p class="kicker">Answers · Chapter 16</p><section id="p64-answers-clause-and-sentence-syntax" class="level1">
+</template>
+<template data-page id="answers-16-clause-syntax" data-title="Answers: Clause and Sentence Syntax · Pāli: A Workbook" data-label="Answers: Clause and Sentence Syntax"><p class="kicker">Answers · Chapter 16</p><section id="p64-answers-clause-and-sentence-syntax" class="level1">
 <h1>Answers: Clause and Sentence Syntax</h1>
 <p>Three items carry a trap: <strong>17</strong>, <strong>18</strong>
 and <strong>27</strong>. Each is named where it falls.</p>
@@ -46439,8 +46448,8 @@ to do what this chapter has asked throughout: read the case, read the
 participle, and supply the relation.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-17-relative-clauses" data-title="Answers: Relative Clauses · Pāli: A Workbook"><p class="kicker">Answers · Chapter 17</p><section id="p65-answers-relative-clauses" class="level1">
+</template>
+<template data-page id="answers-17-relative-clauses" data-title="Answers: Relative Clauses · Pāli: A Workbook" data-label="Answers: Relative Clauses"><p class="kicker">Answers · Chapter 17</p><section id="p65-answers-relative-clauses" class="level1">
 <h1>Answers: Relative Clauses</h1>
 <p>Six items carry a trap: <strong>15</strong>, <strong>16</strong>,
 <strong>17</strong>, <strong>19</strong>, <strong>20</strong> and
@@ -46811,8 +46820,8 @@ its own: an extent clause needs no answering word to be recognised as
 one.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-18-metre" data-title="Answers: Metre · Pāli: A Workbook"><p class="kicker">Answers · Chapter 18</p><section id="p66-answers-metre" class="level1">
+</template>
+<template data-page id="answers-18-metre" data-title="Answers: Metre · Pāli: A Workbook" data-label="Answers: Metre"><p class="kicker">Answers · Chapter 18</p><section id="p66-answers-metre" class="level1">
 <h1>Answers: Metre</h1>
 <p>Seven items carry a trap: <strong>8</strong>, <strong>17</strong>,
 <strong>19</strong>, <strong>20</strong>, <strong>26</strong>,
@@ -47210,8 +47219,8 @@ twice, and because the pair is what the metre is built on, nothing about
 the structure has to change to accommodate it.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-R1-sounds-and-script" data-title="Answers: Review — Sounds and Script · Pāli: A Workbook"><p class="kicker">Answers</p><section id="p67-answers-review-sounds-and-script" class="level1">
+</template>
+<template data-page id="answers-R1-sounds-and-script" data-title="Answers: Review — Sounds and Script · Pāli: A Workbook" data-label="Answers: Review — Sounds and Script"><p class="kicker">Answers</p><section id="p67-answers-review-sounds-and-script" class="level1">
 <h1>Answers: Review — Sounds and Script</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -47574,8 +47583,8 @@ gets forgotten, because the form left after the first looks like a
 perfectly good nominative plural.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-R2-noun-phrase" data-title="Answers: Review — The Noun Phrase · Pāli: A Workbook"><p class="kicker">Answers</p><section id="p68-answers-review-the-noun-phrase" class="level1">
+</template>
+<template data-page id="answers-R2-noun-phrase" data-title="Answers: Review — The Noun Phrase · Pāli: A Workbook" data-label="Answers: Review — The Noun Phrase"><p class="kicker">Answers</p><section id="p68-answers-review-the-noun-phrase" class="level1">
 <h1>Answers: Review — The Noun Phrase</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -48083,8 +48092,8 @@ before it is a claim about what a poet did, and the way to check that is
 the apparatus, not the grammar.</p></li>
 </ol>
 </section>
-</section>
-<section class="page" id="answers-R3-the-verb" data-title="Answers: Review — The Verb · Pāli: A Workbook"><p class="kicker">Answers</p><section id="p69-answers-review-the-verb" class="level1">
+</template>
+<template data-page id="answers-R3-the-verb" data-title="Answers: Review — The Verb · Pāli: A Workbook" data-label="Answers: Review — The Verb"><p class="kicker">Answers</p><section id="p69-answers-review-the-verb" class="level1">
 <h1>Answers: Review — The Verb</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
 <ol type="1">
@@ -48825,8 +48834,8 @@ own direct knowledge.”</p></li>
 </ol>
 <p><strong>Say it aloud.</strong></p>
 </section>
-</section>
-<section class="page" id="answers-R4-sentence-and-verse" data-title="Answers: Review — The Sentence and the Verse · Pāli: A Workbook"><p class="kicker">Answers</p><section id="p70-answers-review-the-sentence-and-the-verse"
+</template>
+<template data-page id="answers-R4-sentence-and-verse" data-title="Answers: Review — The Sentence and the Verse · Pāli: A Workbook" data-label="Answers: Review — The Sentence and the Verse"><p class="kicker">Answers</p><section id="p70-answers-review-the-sentence-and-the-verse"
 class="level1">
 <h1>Answers: Review — The Sentence and the Verse</h1>
 <p><strong>Sotānugata — met by ear.</strong></p>
@@ -49693,10 +49702,7 @@ The classes show what to look for, the declension the form to look for
 it in, and the dictionary what is there.</p></li>
 </ol>
 </section>
-</section>
-<p class="ver">Version 1.2 · 17 November 2026. <a href="https://github.com/sajjhaya/pali">Check the repository for a newer version.</a></p>
-</main>
-</div>
+</template>
 <script>
 (function(){
  var box=document.getElementById('q'),out=document.getElementById('hits');
@@ -49707,8 +49713,8 @@ it in, and the dictionary what is there.</p></li>
  function build(){
   if(idx)return idx;
   if(window.SEARCH_INDEX){idx=window.SEARCH_INDEX.map(function(e){return{t:e[0],u:root+e[1],x:e[2],f:fold(e[2])};});}
-  else{idx=[].map.call(document.querySelectorAll('section.page'),function(s){
-   var x=s.textContent.replace(/\s+/g,' ');return{t:s.getAttribute('data-title')||s.id,u:'#'+s.id,x:x,f:fold(x)};});}
+  else{idx=[].map.call(document.querySelectorAll('template[data-page]'),function(s){
+   var x=s.content.textContent.replace(/\s+/g,' ');return{t:s.getAttribute('data-title')||s.id,u:'#'+s.id,x:x,f:fold(x)};});}
   return idx;}
  box.addEventListener('input',function(){
   var q=fold(box.value.trim());out.innerHTML='';if(q.length<2)return;
@@ -49720,6 +49726,45 @@ it in, and the dictionary what is there.</p></li>
    var li=document.createElement('li'),l=document.createElement('a'),s=document.createElement('small');
    l.href=e.u;l.textContent=e.t;s.textContent=(a?'\u2026':'')+sn+'\u2026';li.appendChild(l);li.appendChild(s);out.appendChild(li);n++;});
   if(!n)out.innerHTML='<li>No match.</li>';});
+})();
+</script>
+<script>
+(function(){
+ var pages=[].slice.call(document.querySelectorAll('template[data-page]'));
+ var home=document.getElementById('home'),view=document.getElementById('view');
+ var book=document.title,shown=null;
+ function owner(id){
+  var t=document.getElementById(id);
+  if(t&&t.tagName==='TEMPLATE'&&t.hasAttribute('data-page'))return t;
+  for(var i=0;i<pages.length;i++)if(pages[i].content.getElementById(id))return pages[i];
+  return null;}
+ function link(t,before){
+  var a=document.createElement('a');a.href='#'+t.id;
+  a.textContent=before?'\u2190 '+t.getAttribute('data-label'):t.getAttribute('data-label')+' \u2192';return a;}
+ function show(t){
+  if(shown===t)return;
+  shown=t;view.textContent='';
+  view.appendChild(document.importNode(t.content,true));
+  var i=pages.indexOf(t),pn=document.createElement('div'),l=document.createElement('span'),r=document.createElement('span');
+  pn.className='pn';
+  if(i>0)l.appendChild(link(pages[i-1],true));
+  if(i<pages.length-1)r.appendChild(link(pages[i+1],false));
+  pn.appendChild(l);pn.appendChild(r);view.appendChild(pn);
+  home.hidden=true;view.hidden=false;
+  [].forEach.call(document.querySelectorAll('nav.side [aria-current]'),function(a){a.removeAttribute('aria-current');});
+  var a=document.querySelector('nav.side .tree a[href="#'+t.id+'"]');
+  if(a){a.setAttribute('aria-current','page');
+   for(var d=a.parentNode;d&&d.tagName!=='NAV';d=d.parentNode)if(d.tagName==='DETAILS')d.open=true;}
+  document.title=t.getAttribute('data-label')+' \u2014 '+book;}
+ function route(){
+  var id=decodeURIComponent(location.hash.slice(1));
+  var t=id?owner(id):null;
+  if(!t){shown=null;view.hidden=true;view.textContent='';home.hidden=false;document.title=book;window.scrollTo(0,0);return;}
+  show(t);
+  var el=t.id===id?null:document.getElementById(id);
+  if(el)el.scrollIntoView();else window.scrollTo(0,0);}
+ window.addEventListener('hashchange',route);
+ route();
 })();
 </script>
 </body>

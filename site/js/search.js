@@ -8,8 +8,8 @@
  function build(){
   if(idx)return idx;
   if(window.SEARCH_INDEX){idx=window.SEARCH_INDEX.map(function(e){return{t:e[0],u:root+e[1],x:e[2],f:fold(e[2])};});}
-  else{idx=[].map.call(document.querySelectorAll('section.page'),function(s){
-   var x=s.textContent.replace(/\s+/g,' ');return{t:s.getAttribute('data-title')||s.id,u:'#'+s.id,x:x,f:fold(x)};});}
+  else{idx=[].map.call(document.querySelectorAll('template[data-page]'),function(s){
+   var x=s.content.textContent.replace(/\s+/g,' ');return{t:s.getAttribute('data-title')||s.id,u:'#'+s.id,x:x,f:fold(x)};});}
   return idx;}
  box.addEventListener('input',function(){
   var q=fold(box.value.trim());out.innerHTML='';if(q.length<2)return;
